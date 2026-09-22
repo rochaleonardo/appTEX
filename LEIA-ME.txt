@@ -1,0 +1,64 @@
+TEX — FORMULÁRIO PARA iOS E ANDROID
+
+ACESSO
+https://tex-relatorio-demonstracao.leo-oi.chatgpt.site
+O endereço atual mantém acesso privado. Entre com a conta autorizada, quando solicitado.
+Não feche uma aba com dados ainda não guardados para instalar a nova versão.
+
+IPHONE / IPAD
+1. Abra o endereço no Safari, fora de aplicativos de mensagens e visualizadores de arquivo.
+2. Abra Compartilhar e escolha Adicionar à Tela de Início.
+3. Se aparecer a opção Abrir como App da Web, mantenha-a ativada.
+4. Abra pelo ícone TEX Testes.
+
+ANDROID
+1. Abra o endereço no Chrome.
+2. No menu de três pontos, escolha Adicionar à tela inicial ou Instalar app.
+3. Também poderá aparecer um botão Instalar aplicativo dentro das instruções do formulário.
+As opções variam conforme a versão do navegador e do sistema.
+
+SALVAR E REABRIR
+Toque em Salvar / compartilhar. No iOS, escolha Salvar em Arquivos, quando disponível.
+No Android, escolha um destino de arquivos disponível ou use Baixar preenchimento.
+O aplicativo tenta compartilhar JSON. Se o navegador não aceitar, tenta TXT com os mesmos dados.
+Guarde o arquivo e confirme somente depois de verificar o destino.
+Para continuar, toque em Abrir preenchimento e selecione o arquivo JSON ou TXT exportado.
+Arquivos antigos deste formulário em JSON continuam compatíveis.
+Se houver bloqueio, use o download ou a alternativa de copiar o conteúdo.
+Não há salvamento automático nem sincronização entre aparelhos. O aviso ao sair pode não aparecer no celular.
+
+PDF
+Use Imprimir / PDF e as opções de impressão ou compartilhamento do aparelho.
+Para retomar a edição, guarde também o JSON ou TXT; PDF não é importável.
+
+INSTALAÇÃO E CONEXÃO
+Esta é uma versão web para tela inicial; não é um APK ou um aplicativo da App Store.
+No celular, use o endereço HTTPS. Abrir o HTML pelo aplicativo Arquivos não instala a versão web.
+É necessário acesso à internet para abrir esta versão. Não foi implementado cache offline.
+
+ARQUIVOS DO PACOTE
+index.html: aplicativo completo.
+manifest.webmanifest: nome, ícones e configuração de abertura.
+icons/: ícones para iOS e Android.
+LEIA-ME.txt: estas instruções.
+
+PARA HOSPEDAGEM PRÓPRIA
+Extraia o pacote e publique index.html, manifest.webmanifest e a pasta icons juntos em hospedagem HTTPS.
+Mantenha a estrutura de pastas. Caminhos relativos permitem publicação em subpastas.
+O pacote não inclui autenticação própria; o acesso privado do endereço atual é fornecido pela hospedagem.
+Configure restrições de acesso na nova hospedagem, se necessárias.
+
+VALIDAÇÃO
+Sintaxe JavaScript, manifesto, ícones e fluxos simulados de compartilhamento, cancelamento e bloqueio verificados.
+Não houve teste em iPhone ou Android físicos.
+
+REFERÊNCIAS
+https://support.apple.com/guide/iphone/iphea86e5236/ios
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
+https://web.dev/articles/files/share-files
+
+ATUALIZAÇÃO VISUAL
+Logo original TEX incorporado no cabeçalho e na impressão, com proporções e transparência preservadas.
+
+PACOTE COMPLETO
+Ícones oficiais TEX configurados no HTML e no manifesto. Extraia todos os arquivos e preserve a pasta icons. Para usar no iPhone ou Android, publique o conteúdo em hospedagem HTTPS e abra o endereço no navegador. Não basta abrir o HTML no visualizador de arquivos do celular.
